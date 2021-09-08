@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0;
+  /*background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+}
+header a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  padding: 0px 20px;
+}
+.nav__links a {
+  text-decoration: none;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .text h1 {
+  font-family: "Poppins";
+  padding: 0px 9%;
+  color: white;
+  font-size: 3em;
+  line-height: 1.5em;
+  font-weight: 900;
+}
+.content .text .buttons {
+  display: flexbox;
+  padding: 30px 9%;
+}
+.content .text .buttons a {
+  font-family: "Montserrat";
+  display: flexbox;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #e63946 ;
+  border-radius: 6px;
+}
+.image {
+  width: 400px;
+  display: flex;
+  padding-right: 50px;
+  margin-top: 50px;
+  justify-content: flex-end;
+  background: transparent;
+}
