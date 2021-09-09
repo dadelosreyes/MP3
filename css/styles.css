@@ -90,18 +90,81 @@ nav li {
   justify-content: flex-end;
   background: transparent;
 }
+h1{
+  font-family: "Poppins";
+  padding:0px 5% ;
+  color: white;
+  margin-top: 150px;
+  font-size: 3em;
+  font-weight: 900;
+}
 
 .mps{
+  position: relative;
   display: flex;
-  margin: 50px 10%;
+  padding: 10px 5% 150px 5%;
+  font-size: 12px;
   justify-content: space-between;
   align-items: center;
 }
-.mps .text p{
+
+.mp1-text, .mp2-text, .mp3-text p{
+  color: #ffffff;
+}
+
+.mps .mp1 .mp1-text p{
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "PT Sans";
+  text-decoration: none;
+}
+.mps .mp1 .image:hover{
+  box-shadow: 0px 0px 30px white;
+}
+.mps .mp2 .image:hover{
+  box-shadow: 0px 0px 30px white;
+}
+.mps .mp3 .image:hover{
+  box-shadow: 0px 0px 30px white;
+}
+
+.mps .mp2 .mp2-text p{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "PT Sans";
+}
+.mps .mp3 .mp3-text p{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "PT Sans";
+}
+.bio{
+  display: flex;
+  margin: 150px 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.bio p{
+  text-align: justify;
   font-size: 1rem;
   font-weight: 400;
   font-family: "PT Sans";
   max-width: 60%;
   color: #ffffff;
-
 }
+
+.contact{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.contact a{
+  margin: 20px;
+}
+
