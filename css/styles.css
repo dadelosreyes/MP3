@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 * {
   box-sizing: border-box;
@@ -43,14 +44,14 @@ nav li {
   text-decoration: none;
 }
 
-.content {
+.landing {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.content .text h1 {
+.landing .header h1 {
   font-family: "Poppins";
   padding: 0px 9%;
   color: white;
@@ -58,26 +59,49 @@ nav li {
   line-height: 1.5em;
   font-weight: 900;
 }
-.content .text .buttons {
+.landing .header .buttons {
   display: flexbox;
   padding: 30px 9%;
+  
 }
-.content .text .buttons a {
+.landing .header .buttons a {
   font-family: "Montserrat";
-  display: flexbox;
-  padding: 10px 20px;
-  margin-right: 20px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: #e63946 ;
-  border-radius: 6px;
 }
-.image {
+.landing .header .buttons .filled {
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: #e63946;
+  border-radius: 40px;
+}
+.landing .header .buttons .unfilled {
+  padding: 10px 20px;
+  background-color: none;
+  border-radius: 40px;
+  border: 2px solid #e63946;
+}
+.anim {
   width: 400px;
   display: flex;
   padding-right: 50px;
   margin-top: 50px;
   justify-content: flex-end;
   background: transparent;
+}
+
+.mps{
+  display: flex;
+  margin: 50px 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.mps .text p{
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "PT Sans";
+  max-width: 60%;
+  color: #ffffff;
+
 }
